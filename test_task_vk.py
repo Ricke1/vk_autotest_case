@@ -23,7 +23,7 @@ def test_set_can_only_contain_elements_of_immutable_types(data_for_set):
 
 
 @pytest.mark.set
-def test_tuple_can_contain_objects_of_different_types():
+def test_set_can_contain_objects_of_different_types():
     data_for_set = [1, "str", 1.5, True]
     check = False
     try:
