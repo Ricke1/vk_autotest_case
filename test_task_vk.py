@@ -31,7 +31,7 @@ def test_tuple_can_contain_objects_of_different_types():
         check = True
     except Exception as e:
         print(f"Ошибка: {e}")
-    assert check, "Невозможно добавить в кортеж данные разных типов"
+    assert check, "Невозможно добавить в множество данные разных типов"
 
 
 @pytest.mark.tuple
