@@ -46,7 +46,7 @@ def test_tuple_not_changeable():
 
 
 @pytest.mark.tuple
-@pytest.mark.parametrize("data_for_tuple", test_data_set)
+@pytest.mark.parametrize("data_for_tuple", test_data_tuple)
 def test_tuple_can_contain_objects_of_different_types(data_for_tuple):
     check = False
     try:
